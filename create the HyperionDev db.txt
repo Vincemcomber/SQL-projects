@@ -1,0 +1,17 @@
+Assuming you have a SQL script named create_database.sql that contains the necessary SQL commands to create the database tables and populate them with data, you can create the HyperionDev.db database by following these steps:
+
+Open your command-line interface (e.g. Terminal on Mac, Command Prompt on Windows).
+
+Navigate to the directory where your create_database.sql script is located. You can use the cd command to change directories.
+
+Launch SQLite by typing sqlite3 and pressing Enter.
+
+In SQLite, create the HyperionDev.db database by typing .open HyperionDev.db and pressing Enter. This will create an empty database file in the current directory.
+
+Load the create_database.sql script into SQLite by typing .read create_database.sql and pressing Enter. This will execute the SQL commands in the script and create the database tables and populate them with data.
+
+Verify that the database was created successfully by typing .tables and pressing Enter. This will display a list of all tables in the database.
+
+Exit SQLite by typing .exit and pressing Enter.
+
+Your HyperionDev.db database should now be created and ready to use.
